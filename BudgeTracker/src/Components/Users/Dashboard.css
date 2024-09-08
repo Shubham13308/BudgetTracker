@@ -1,0 +1,48 @@
+.dash-container {
+    padding: 20px;
+    overflow-y: auto;     height: 100vh; 
+    
+    background-image: url('../../Assets/Image/bullet-journal-keyboard-top-view.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5); 
+    animation: slideIn 0.5s ease forwards; 
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.623);
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.col-md-6, .col-md-4, .col-md-12 {
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+
+    .col-md-4 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
